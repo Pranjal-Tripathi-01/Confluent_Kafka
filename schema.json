@@ -1,0 +1,26 @@
+{
+    "$id": "http://example.com/myURI.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "additionalProperties": false,
+    "description": "Sample schema for student data.",
+    "properties": {
+      "Age": {
+        "description": "TStudent Age",
+        "type": "number"
+      },
+      "Id": {
+        "description": "Student ID",
+        "type": "number"
+      },
+      "Name": {
+        "description": "Student Name",
+        "type": "string"
+      },
+      "Time Stamp": {
+        "description": "Created Timestamp",
+        "type": "string"
+      }
+    },
+    "title": "Student Record",
+    "type": "object"
+  }
