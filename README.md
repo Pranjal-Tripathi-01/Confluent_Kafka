@@ -1,4 +1,4 @@
-# Kafka
+# Confluent Kafka
 
 A simple ETL pipeline integrating MYSQL, Kafka and Cassandra.
 
