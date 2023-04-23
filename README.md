@@ -7,7 +7,7 @@ A simple ETL pipeline integrating MYSQL, Kafka and Cassandra.
 
 1. Random data is generated and loaded into MYSQL table using data_generator.py
 2. Data from MYSQL table is sent to Kafka topic using producer.py
-3. Data from Kafka topic is consumed and written to cassandra table using consumer.py
+3. Data from Kafka topic is consumed and transformed and written to cassandra table using consumer.py
 
 ## Resources:
 1. Confluent Cloud for Kafka
